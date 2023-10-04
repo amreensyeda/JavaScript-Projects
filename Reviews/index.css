@@ -1,0 +1,77 @@
+body{
+    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+h1{
+    font-family: 'Cedarville Cursive', cursive;
+    font-weight: lighter;
+    margin-bottom: 0;
+}
+.container{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.image{
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 15px;
+    height: 100px;
+    border: 1px solid rgb(81, 78, 78);
+}
+h4{
+    letter-spacing: 5px;
+    word-spacing: 4px;
+    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    margin: 10px;
+    margin-bottom: 0;
+}
+h6{
+    letter-spacing: 2px;
+    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    margin: 0;
+    margin-top: 5px;
+    color: rgb(59, 180, 255);
+}
+p{
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    margin: 0;
+}
+.page-nav{
+    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+    word-spacing: 5px;
+    font-size: 40px;
+    margin:0px;
+    color: rgb(59, 180, 255);
+    border: none;
+    margin-top: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+
+#surprise-el{
+    color: rgb(59, 180, 255);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(59, 180, 255);
+    background-color:aliceblue;
+    border-radius: 10px;
+    padding: 7px 5px 7px 5px;
+    cursor: pointer;
+}
